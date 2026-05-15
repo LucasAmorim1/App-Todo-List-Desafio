@@ -1,4 +1,6 @@
-# Todo App
+# Todo List
+
+## Sobre o App
 
 App de desafio técnico React Native estilo "To Do List".
 O app consiste em um sistema CRUD completo, onde o usuário pode criar tasks, marcar e desmarcar como concluídas, editar nome e/ou descrição, deletar, listar as tasks criadas, além buscar tasks específicas com campo de busca por nome e filtrar por concluídas ou pendentes... Possui também uma tela de estatísticas simples, com gráfico estilo pie chart representando visualmente a proporção de tasks concluídas/pendentes do usuário, e também uma tela simples de perfil onde é mostrado as informações do usuário. O app possui um sistema de persistência local de dados com AsyncStorage, com login e registro, mantendo informações separadas por usuário, garantindo que cada um tenha as suas próprias tasks. O app também permite acessar o sistema sem fazer login, porém com limitações, o usuário entrando como convidado tem um limite de 10 tasks simultâneas, e não tem acesso às telas de estatísticas e de perfil, pedindo que o usuário faça o login para usar o app por completo. Ao logar, se tiver tasks que foram criadas como convidado, o usuário pode transferir as tasks pra si, ou deletar elas se quiser.
