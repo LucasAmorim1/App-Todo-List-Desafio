@@ -80,7 +80,7 @@ O app consiste em um sistema CRUD completo, onde o usuário pode criar tasks, ma
 
 ```bash
 git clone
-cd todo-app
+cd App-Todo-List-Desafio
 npm install
 # ou
 yarn
