@@ -53,7 +53,7 @@ O app consiste em um sistema CRUD completo, onde o usuário pode criar tasks, ma
 
 - **Zustand** foi escolhido por permitir múltiplos stores com responsabilidades separadas, sem boilerplate e com suporte nativo a TypeScript
 - **Estado de UI em um store** — `useUiModalStore` abriga estados e controle de visibilidade dos modais no store, para que componentes separados tenham acesso aos modais e seus dados sem prop drilling desnecessária.
-- **Autenticação simulada** — o `useAuthStore` opera com Promises para simular autenticação assíncrona; para integrar com uma API real
+- **Autenticação simulada** — o `useAuthStore` opera com Promises para simular autenticação assíncrona; para integração com uma API real
 - **Hooks com a lógica para cada etapa do CRUD** — ainda que simples, regras de negócio e lógica para as operações separadas em hooks para manter os componentes (sempre que possível) com sua única responsabilidade
 - **Vários componentes** — a ideia foi separar o código em blocos menores, tanto para reaproveitamento, quanto para facilitar a manutenção, legibilidade e organização, deixando cada pedaço de código com sua responsabilidade separada
 - **Filtros em memória** — em produção com backend, seriam parâmetros de query na API
@@ -81,7 +81,7 @@ O app consiste em um sistema CRUD completo, onde o usuário pode criar tasks, ma
 ## Instalação
 
 ```bash
-git clone
+git clone https://github.com/LucasAmorim1/App-Todo-List-Desafio.git
 cd App-Todo-List-Desafio
 npm install
 # ou
